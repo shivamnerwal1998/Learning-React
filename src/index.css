@@ -1,0 +1,83 @@
+body{
+  font-family: 'Kalam', cursive;
+  background: snow;
+}
+.btnAdd{
+  border-color:transparent;
+  margin-top: 10PX;
+  margin-left:10px;
+  margin-right:10px ; 
+  background-color: papayawhip ;
+  color :black ; 
+  cursor:pointer ;
+}
+.btnSub{
+  margin-top: 5px;
+  border-color:transparent;
+  color:rgba(0, 0, 0, 0.863);  
+  align-items: baseline;
+  cursor: pointer;
+
+}
+.btnAdd:hover{
+  background-color:rgba(0, 0, 0, 0.863);
+  color:white;
+}
+.btnSub:hover{  
+  background-color:rgba(0, 0, 0, 0.863);
+  color:white;
+}
+input{
+  text-align:center ;
+  height:30px;
+  top:10px;
+  border:none ;
+  background:transparent;
+  font-size:20px;
+  font-weight:50;
+  width:60%;
+  border-bottom:2px solid black ;
+  outline:none ; 
+}
+.mainDiv{
+  width:100%;
+  display:flex;
+  justify-content:center ;
+  align-items: center ;
+  text-align:center ; 
+  }
+  .containerDiv{
+    width: 30%;
+    height : 90vh ;
+    background-color: papayawhip ;
+    box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5) ;
+    border-radius:15px;  
+    overflow: auto; 
+    
+     
+  }
+  /* To hide scrollbar  */
+  .containerDiv::-webkit-scrollbar {
+  
+    display: none;
+   
+  }
+
+  
+  h1{
+    color: white;
+    border-radius:15px;
+    border-bottom-left-radius: 0 ;
+    border-bottom-right-radius: 0 ;
+    background: transparent;
+    background-color:black;
+    padding:6px 0 2px 0;
+    margin-bottom:10px;
+    margin-top: 0px ;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+  }
+  .Li{
+    text-align:left;
+    color: rgb(128, 128, 128);
+    background-color: cornsilk;
+  }
